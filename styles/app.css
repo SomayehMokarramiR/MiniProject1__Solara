@@ -475,8 +475,8 @@ body {
   /****** ********/
   display: flex;
   gap: 160px; /****** ********/
-   position: relative;
-  /* overflow: hidden; */ */
+   /* position: relative; */
+  /* overflow: hidden; */ 
 }
 .sectionTree__shapes {
   width: 1450px;
@@ -504,7 +504,7 @@ body {
   border-radius: 100%;
 
   position: absolute;
-  top: -17px;
+ top: 42px;
   left: 129px;
   z-index: 20;
 }
@@ -514,7 +514,7 @@ body {
   opacity: 1;
   background-color: #38bdf8;
   position: absolute;
- top: 562px;
+ top: 613px;
   left: 27px;
   border-radius: 100%;
   z-index: 3;
@@ -528,13 +528,12 @@ body {
 
   /* position: absolute;*/
 
-  position: absolute;
+  position: relative;
   z-index: -1;
-  left: 142px;
-  top: 100px;
-
-
+left: -105px;
+  top: 73px;
 }
+
 .sectionTree_boxRigth {
   width: 700px;
   height: 702px;
