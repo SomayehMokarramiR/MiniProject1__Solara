@@ -333,6 +333,100 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  overflow: hidden;
+}
+.sectionTwo__circles {
+  width: 1996px;
+  height: 807px;
+  opacity: 1;
+  position: relative;
+  /* z-index: 1; */
+}
+.Elipse19 {
+  width: 131px;
+  height: 131px;
+  opacity: 1;
+  top: 322px;
+  /* left: 104px; */
+  left: 378px;
+  background-color: #fbbf24;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 9;
+}
+.Elips18 {
+  width: 154px;
+  height: 154px;
+  opacity: 1;
+  top: 476px;
+  /* left: 1230px; */
+  left: 1528px;
+  background-color: #a855f7;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 9;
+}
+.Elipse16 {
+  width: 148px;
+  height: 148px;
+  opacity: 1;
+  top: 796px;
+  /* left: 1170px; */
+  left: 1448px;
+  background-color: #fbbf24;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 11;
+}
+.Elipse17 {
+  width: 89px;
+  height: 89px;
+  opacity: 1;
+  top: 729px;
+  /* left: 125px; */
+  left: 411px;
+  background-color: #7e22ce;
+  /* border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%; */
+  /* clip-path: ellipse(100% 100% at 50% 100%); */
+  border-radius: 0% 0% 100% 100% / 0% 0% 100% 100%;
+  position: absolute;
+  z-index: 15;
+}
+.Elipse15 {
+  width: 596px;
+  height: 597px;
+  opacity: 1;
+  top: 400px;
+  /* left: 1045px; */
+  left: 1346px;
+  background-color: #7e22ce;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 3;
+}
+.Elipse14 {
+  width: 710px;
+  height: 711px;
+  opacity: 1;
+  top: 190px;
+  left: -57px;
+  /* left: -355px; */
+  background-color: #f59e0b;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 4;
+}
+.sectionTwo-desktop {
+  width: 1100px;
+  height: 694px;
+  opacity: 1;
+  border-radius: 20px;
+  border-width: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
 .sectionTwo_Sec-Text {
   width: 900px;
@@ -381,13 +475,41 @@ body {
   /****** ********/
   display: flex;
   gap: 160px; /****** ********/
+  /* position: relative;
+  overflow: hidden; */
 }
+/* .Shape_rectangle {
+  width: 1146.5438232421875px;
+  height: 1000.1336059570312px;
+  opacity: 1;
+  background-color: #581c87;
+  position: absolute;
+  z-index: 1;
+}
+.Shape_Elipse17_3 {
+  width: 80px;
+  height: 80px;
+  opacity: 1;
+  background-color: #fbbf24;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 2;
+}
+.Shape_Elipse18_3 {
+  width: 99px;
+  height: 99px;
+  opacity: 1;
+  background-color: #38bdf8;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 3;
+} */
 .sectionTree-mobile {
   width: 420px;
   height: 900px;
   border-radius: 20px;
   border: 5px solid #fff;
-  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
 }
 .sectionTree_boxRigth {
   width: 700px;
@@ -669,7 +791,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 80px; /****** ********/
-   flex-shrink: 0;
+  flex-shrink: 0;
 }
 .sectionSix__left {
   max-width: 524px;
@@ -677,7 +799,6 @@ body {
   opacity: 1;
 
   position: relative;
-
 }
 .Elipse11 {
   width: 75px;
@@ -750,7 +871,7 @@ body {
   position: absolute;
 }
 .sectionSix__rigth {
-  width: 676px;
+  max-width: 676px;
   height: 378px;
   gap: 24px;
   opacity: 1;
@@ -758,6 +879,7 @@ body {
   padding-bottom: 24px;
   display: flex;
   flex-direction: column;
+  position: absolute;
 }
 .sectionSix-secText {
   width: 676px;
