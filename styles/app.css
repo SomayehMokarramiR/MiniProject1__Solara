@@ -485,11 +485,15 @@ body {
   z-index: -1;
 }
 .Shape_rectangle {
-  width: 1146.5438232421875px;
+  /* width: 1146.5438232421875px;
   height: 1000.1336059570312px;
   opacity: 1;
   background-color: #581c87;
   position: absolute;
+  z-index: 1; */
+  position: absolute;
+  top: 0;
+  left: 0;
   z-index: 1;
 }
 .Shape_Elipse17_3 {
@@ -510,12 +514,15 @@ body {
   border-radius: 100%;
   z-index: 3;
 }
-*/ .sectionTree-mobile {
+.sectionTree-mobile {
   width: 420px;
   height: 900px;
   border-radius: 20px;
   border: 5px solid #fff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* position: absolute;*/
+  z-index: 5; 
 }
 .sectionTree_boxRigth {
   width: 700px;
@@ -610,16 +617,32 @@ body {
   /****** ********/
   display: flex;
   gap: 160px; /**** ********/
+  position: relative;
+}
+
+.sectionFour-mobile {
+  width: 420px;
+  height: 900px;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
+
+  position: relative;
+  right: 163px;
+  z-index: 5; 
 }
 .Shape_rectangle_four {
-  width: 1146.5438232421875px;
+  /* width: 1146.5438232421875px;
   height: 1000.1336059570312px;
   opacity: 1;
   background-color: #fbbf24;
   position: absolute;
   z-index: 1;
   border-radius: 40px;
-  transform: rotate(8deg);
+  transform: rotate(8deg); */
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 .Shape_ElipseOut {
   width: 115px;
