@@ -155,91 +155,73 @@
     padding-right: 16px;
     padding-bottom: 48px;
     padding-left: 16px;
-
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    overflow: hidden; */
   }
   .sectionTwo__circles {
-    width: 1996px;
-    height: 807px;
+    width: 702.4337768554688px;
+    height: 284px;
     opacity: 1;
+
     position: relative;
-    /* z-index: 1; */
   }
   .Elipse19 {
-    width: 131px;
-    height: 131px;
-    opacity: 1;
-    top: 322px;
-    /* left: 104px; */
-    left: 378px;
+    width: 46.10161209106445px;
+    height: 46.10161209106445px;
+    top: 285.65px;
+    left: 167.08px;
     background-color: #fbbf24;
     border-radius: 100%;
     position: absolute;
     z-index: 9;
   }
   .Elips18 {
-    width: 154px;
-    height: 154px;
-    opacity: 1;
-    top: 476px;
-    /* left: 1230px; */
-    left: 1528px;
+    width: 54.19578552246094px;
+    height: 54.19578552246094px;
+    top: 401.65px;
+    left: 531.08px;
+
     background-color: #a855f7;
     border-radius: 100%;
     position: absolute;
     z-index: 9;
   }
   .Elipse16 {
-    width: 148px;
-    height: 148px;
-    opacity: 1;
-    top: 796px;
-    /* left: 1170px; */
-    left: 1448px;
+    width: 46.9891471862793px;
+    height: 46.9891471862793px;
+    top: 453.27px;
+    left: 465.78px;
+
     background-color: #fbbf24;
     border-radius: 100%;
     position: absolute;
     z-index: 11;
   }
   .Elipse17 {
-    width: 89px;
-    height: 89px;
-    opacity: 1;
-    top: 729px;
-    /* left: 125px; */
-    left: 411px;
+    width: 28.256988525390625px;
+    height: 28.256988525390625px;
+    top: 446px;
+    left: 192px;
     background-color: #7e22ce;
-    /* border-bottom-left-radius: 100%;
-  border-bottom-right-radius: 100%; */
-    /* clip-path: ellipse(100% 100% at 50% 100%); */
     border-radius: 0% 0% 100% 100% / 0% 0% 100% 100%;
     position: absolute;
     z-index: 15;
   }
   .Elipse15 {
-    width: 596px;
-    height: 597px;
-    opacity: 1;
-    top: 400px;
-    /* left: 1045px; */
-    left: 1346px;
+    width: 209.74473571777344px;
+    height: 210.09666442871094px;
+    top: 354.9px;
+    left: 364.97px;
+
     background-color: #7e22ce;
     border-radius: 100%;
     position: absolute;
     z-index: 3;
   }
   .Elipse14 {
-    width: 710px;
-    height: 711px;
-    opacity: 1;
-    top: 190px;
-    left: -57px;
-    /* left: -355px; */
+    width: 249.8636932373047px;
+    height: 250.2156219482422px;
+    top: 265px;
+    left: 27.28px;
+
     background-color: #f59e0b;
     border-radius: 100%;
     position: absolute;
@@ -251,11 +233,28 @@
     opacity: 1;
     border-radius: 20px;
     border-width: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
 
     background-color: #fff;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
     z-index: 10;
   }
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: block;
+  }
+  /* .sectionTwo_top {
+    width: 361px;
+    height: 173px;
+    display: flex;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+  } */
   .sectionTwo_Sec-Text {
     width: 361px;
     height: 173px;
@@ -275,6 +274,7 @@
     color: #d97706;
     display: inline-block;
   }
+
   .sectionTwo_secondaryHead {
     font-weight: 700;
     font-style: Bold;
@@ -293,4 +293,5 @@
     letter-spacing: 0;
     margin-bottom: 5px;
   }
+  /*--------------------------------------end section two */
 }
