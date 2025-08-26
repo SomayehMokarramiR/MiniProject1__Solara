@@ -469,18 +469,18 @@ body {
 
 .section__tree {
   /* background: green; */
-  max-width: 100%;
-  max-height: 1060px;
+  width: 100%;
+  height: 1060px;
   padding: 80px;
   /****** ********/
   display: flex;
   gap: 160px; /****** ********/
-  /* position: relative; */
+  position: relative;
   /* overflow: hidden; */
 }
 .sectionTree__shapes {
   width: 1450px;
-  position: relative;
+  /* position: relative; */
   height: 100%;
   z-index: -1;
 }
@@ -528,9 +528,9 @@ body {
 
   /* position: absolute;*/
 
-  position: relative;
-  z-index: -1;
-  left: -105px;
+  position: absolute;
+  z-index: 2;
+  left: 40px;
   top: 73px;
 }
 
@@ -539,6 +539,8 @@ body {
   height: 702px;
   gap: 48px;
   position: absolute;
+   left: 621px;
+  top: 167px;
 }
 .sectionTree-secText {
   display: flex;
@@ -666,14 +668,20 @@ body {
   height: 115px;
   opacity: 1;
   top: 700px;
-  left: 1306px;;
+  left: 1306px;
   background: #bae6fd;
   z-index: 20;
   border-radius: 100%;
   position: absolute;
   border: 3px solid #fff;
-
-
+}
+.sectionFour_boxRigth {
+  width: 700px;
+  height: 702px;
+  gap: 48px;
+  position: absolute;
+  left: 0px;
+  top: 0;
 }
 /* ------------------------------------------------End section Four  */
 .section__five {
