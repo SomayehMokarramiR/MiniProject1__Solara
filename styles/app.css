@@ -538,6 +538,7 @@ body {
   width: 700px;
   height: 702px;
   gap: 48px;
+  position: absolute;
 }
 .sectionTree-secText {
   display: flex;
@@ -637,9 +638,10 @@ body {
   border: 5px solid #fff;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
 
-  position: relative;
-  right: 163px;
+  position: absolute;
+  right: 67px;
   z-index: 5;
+  top: 104px;
 }
 .sectionFour-mobile img {
   /* width: 100%;
@@ -663,10 +665,15 @@ body {
   width: 115px;
   height: 115px;
   opacity: 1;
-  top: 662px;
-  left: 1286px;
+  top: 700px;
+  left: 1306px;;
   background: #bae6fd;
-  z-index: 5;
+  z-index: 20;
+  border-radius: 100%;
+  position: absolute;
+  border: 3px solid #fff;
+
+
 }
 /* ------------------------------------------------End section Four  */
 .section__five {
@@ -678,9 +685,10 @@ body {
   background-color: #581c87;
   display: flex;
   flex-direction: column;
-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 
   position: relative;
+  overflow: hidden;
 }
 .sectionFive__top {
   display: flex;
@@ -688,6 +696,7 @@ backdrop-filter: blur(10px);
   height: 188px;
   gap: 160px;
   opacity: 1;
+  z-index: 12;
 }
 
 .sectionfive-secText {
@@ -731,7 +740,6 @@ backdrop-filter: blur(10px);
   line-height: 24px;
   letter-spacing: 0.5px;
   color: rgba(120, 53, 15, 1);
-
 }
 /* .textBtnFive:hover {
   cursor: pointer;
@@ -745,7 +753,7 @@ backdrop-filter: blur(10px);
   gap: 24px;
   opacity: 1;
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 2;
 }
 .sectionFive__contentBox {
@@ -854,9 +862,31 @@ backdrop-filter: blur(10px);
   opacity: 0.5;
   mix-blend-mode: Difference;
   position: absolute;
-  left:0;
-  bottom:-1100px;
+  left: 0;
+  bottom: -1100px;
   z-index: -1;
+}
+.sectinoFive_Elipse2 {
+  width: 218px;
+  height: 219px;
+  opacity: 1;
+  background: #6b21a8;
+  z-index: 10;
+  border-radius: 100%;
+  position: absolute;
+  top: 24px;
+  left: 1180px;
+}
+.sectinoFive_Elipse3 {
+  width: 254.00000787985118px;
+  height: 368.0000114164773px;
+  transform: rotate(52.93 deg);
+  opacity: 1;
+  background: #38bdf8;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 90px;
+  left: 1295px;
 }
 /* ---------------------------------------------End section Five */
 .section__six {
@@ -866,7 +896,7 @@ backdrop-filter: blur(10px);
   display: flex;
   flex-direction: row;
   gap: 80px;
-background-color: #fff;
+  background-color: #fff;
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
