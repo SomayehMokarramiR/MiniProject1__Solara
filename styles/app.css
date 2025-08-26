@@ -1225,16 +1225,3 @@ body {
   color: #0f172a;
 }
 
-/* --------------------------------------------------------Screen Mobile */
-@media (max-width: 393px) {
-  .container {
-    background-color: #78350f;
-  }
-  .menu {
-    visibility: hidden;
-  }
-
-  .buttonGroup {
-    visibility: hidden;
-  }
-}
