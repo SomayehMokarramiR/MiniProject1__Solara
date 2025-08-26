@@ -678,6 +678,9 @@ body {
   background-color: #581c87;
   display: flex;
   flex-direction: column;
+backdrop-filter: blur(10px);
+
+  position: relative;
 }
 .sectionFive__top {
   display: flex;
@@ -728,6 +731,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.5px;
   color: rgba(120, 53, 15, 1);
+
 }
 /* .textBtnFive:hover {
   cursor: pointer;
@@ -742,6 +746,7 @@ body {
   opacity: 1;
   display: flex;
   overflow: hidden;
+  z-index: 2;
 }
 .sectionFive__contentBox {
   width: 364px;
@@ -841,6 +846,18 @@ body {
   width: 24px;
   height: 24px;
 }
+.sectionFive-vector {
+  width: 984.0001220703163px;
+  height: 1498.9998779296932px;
+  transform: rotate(180 deg);
+  /* angle: 180 deg; */
+  opacity: 0.5;
+  mix-blend-mode: Difference;
+  position: absolute;
+  left:0;
+  bottom:-1100px;
+  z-index: -1;
+}
 /* ---------------------------------------------End section Five */
 .section__six {
   max-width: 100%;
@@ -849,7 +866,7 @@ body {
   display: flex;
   flex-direction: row;
   gap: 80px;
-
+background-color: #fff;
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
