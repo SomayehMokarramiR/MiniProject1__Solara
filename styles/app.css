@@ -17,15 +17,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 100vh; */
-  /* position: relative; */
 }
 .container {
   max-width: 1440px;
   max-height: 949px;
   /* background-color: #7e22ce; */
   padding: 8px;
-  gap: 80px; /****** ********/
+  gap: 80px; 
   /* mix-blend-mode: multiply; */
   /*position: absolute; */
   /************ ******  FOR VECTOR****** ******   ********/
@@ -106,7 +104,10 @@ body {
 .menu {
   max-width: 392px;
   max-height: 100%;
-  gap: 16px /****** ********/;
+  gap: 16px;
+
+  /* Mbile */
+  visibility: visible;
 }
 .menu ul {
   display: flex;
@@ -121,7 +122,9 @@ body {
   max-width: 389px;
   max-height: 48px;
   display: flex;
-  gap: 16px /****** ********/;
+  gap: 16px;
+  /* Mbile */
+  visibility: visible;
 }
 .btn-link {
   display: inline-flex;
@@ -539,7 +542,7 @@ body {
   height: 702px;
   gap: 48px;
   position: absolute;
-   left: 621px;
+  left: 621px;
   top: 167px;
 }
 .sectionTree-secText {
@@ -643,7 +646,7 @@ body {
   position: absolute;
   right: 67px;
   z-index: 5;
-  top: 104px;
+  top: 25px;
 }
 .sectionFour-mobile img {
   /* width: 100%;
@@ -660,8 +663,8 @@ body {
   border-radius: 40px;
   transform: rotate(8deg); */
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -103px;
+  right: -28px;
 }
 .Shape_ElipseOut {
   width: 115px;
@@ -680,8 +683,8 @@ body {
   height: 702px;
   gap: 48px;
   position: absolute;
-  left: 0px;
-  top: 0;
+  left: 82px;
+  top: 72px;
 }
 /* ------------------------------------------------End section Four  */
 .section__five {
@@ -1220,4 +1223,18 @@ body {
   padding-bottom: 12px;
   text-decoration: none;
   color: #0f172a;
+}
+
+/* --------------------------------------------------------Screen Mobile */
+@media (max-width: 393px) {
+  .container {
+    background-color: #78350f;
+  }
+  .menu {
+    visibility: hidden;
+  }
+
+  .buttonGroup {
+    visibility: hidden;
+  }
 }
