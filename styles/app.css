@@ -821,7 +821,7 @@ left: -105px;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.2s ease;
+  /* transition: transform 0.2s ease; */
 }
 .sectionFive-arrowBtn {
   width: 48px;
@@ -837,9 +837,9 @@ left: -105px;
   align-items: center;
   justify-content: center;
 }
-.sectionFive-arrowBtn:hover {
+/* .sectionFive-arrowBtn:hover {
   transform: scale(1.05);
-}
+} */
 .arrow-left,
 .arrow-rigth {
   width: 24px;
