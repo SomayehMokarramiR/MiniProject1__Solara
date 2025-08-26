@@ -852,6 +852,7 @@ body {
 
   flex-shrink: 0;
   position: relative;
+  overflow: hidden;
 }
 .sectionSix__left {
   max-width: 524px;
@@ -859,6 +860,16 @@ body {
   opacity: 1;
 
   /* position: relative; */
+}
+.sectionSix__Elipse4 {
+  width: 624px;
+  height: 622px;
+  opacity: 1;
+  background: #fef3c7;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -340px;
+  left: 977px;
 }
 .Elipse11 {
   width: 75px;
