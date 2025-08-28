@@ -6,18 +6,77 @@
     background: #ffffff;
     margin: 0 auto;
   }
+
+  .header {
+    width: 390px;
+    height: 56px;
+    justify-content: space-between;
+    padding: 8px 16px;
+  }
+  .left {
+    max-width: 511px;
+    max-height: 48px;
+    display: flex;
+    gap: 38px;
+  }
+
+  .h__five {
+    font-weight: 700;
+    font-size: 32px;
+    font-style: bold;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0;
+    margin-bottom: 5px;
+  }
+
   .menu {
-    /* display: none; */
+    display: none;
   }
 
   .buttonGroup {
-    /* display: none; */
+    max-width: 389px;
+    max-height: 48px;
+    display: flex;
+    gap: 16px;
   }
-  .header {
-    /* visibility: hidden;
-    display: none; */
+  .rigthBtn {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    border-width: 2px;
+    padding: 8px;
+    background: #fcd34d;
+    border: 2px solid #fcd34d;
   }
-  /* ------------------------------- end header */
+
+  .btn-link {
+    display: none;
+  }
+  .textContainer {
+    display: none;
+  }
+
+  .textContainer {
+    max-width: 127px;
+    max-height: 24px;
+    padding: 0 16px;
+  }
+
+  .arrow-rightFive {
+    display: none !important;
+  }
+  .header_menu_mobile {
+    display: block !important;
+  }
+  .arrow-right {
+    display: none;
+  }
+
+  .textBtnheader {
+    display: none;
+  }
+
+  /* ------------------------------------------------ end header */
   .sectionOne-wrapperImg {
     display: none;
   }

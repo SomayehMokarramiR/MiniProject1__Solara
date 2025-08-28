@@ -105,9 +105,6 @@ body {
   max-width: 392px;
   max-height: 100%;
   gap: 16px;
-
-  /* Mbile */
-  visibility: visible;
 }
 .menu ul {
   display: flex;
@@ -123,8 +120,6 @@ body {
   max-height: 48px;
   display: flex;
   gap: 16px;
-  /* Mbile */
-  visibility: visible;
 }
 .btn-link {
   display: inline-flex;
@@ -137,11 +132,6 @@ body {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-/* .btn-link:hover {
-  cursor: pointer;
-  background: #fcd34d;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.07), 0px 1px 3px rgba(0, 0, 0, 0.1);
-} */
 
 .headsetImg {
   width: 24px;
@@ -170,26 +160,30 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 .arrow-right {
-  width: 48px;
-  height: 48px;
-  opacity: 1;
-  padding: 12px;
-  border-radius: 100px;
+  width: 14.0010347366333px;
+  height: 13.314000129699707px;
+  top: 5.01px;
+  left: 5px;
+  background: #78350f;
+
+  /* border-radius: 100px;
   border-width: 2px;
-  color: #fcd34d;
+  color: #fcd34d; */
 }
-/* .rigthBtn:hover {
-  cursor: pointer;
-  background-color: #f7cf4e;
-  border: 2px solid #f7cf4e; 
-}*/
+
 .textBtnheader {
-  font-weight: 400;
-  font-style: Bold;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
+  width: 158px;
+  height: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+
   color: rgba(120, 53, 15, 1);
+}
+.arrow-rightFiv {
+  display: block !important;
+}
+.header_menu_mobile {
+  display: none !important;
 }
 
 /* --------------------------------------End Header */
@@ -1141,7 +1135,7 @@ body {
   z-index: 1;
 }
 .sectionSeven_macbook_desktop {
-  display: block!important;
+  display: block !important;
 }
 .sectionSeven_macbook_mobile {
   display: none !important;
