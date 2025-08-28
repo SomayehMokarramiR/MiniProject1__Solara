@@ -650,7 +650,7 @@ body {
 .sectionTree-mobileImg_desktop {
   display: block !important;
 }
-.sectionTree-mobileImg_mobile{
+.sectionTree-mobileImg_mobile {
   display: none !important;
 }
 .sectionFour-mobile {
@@ -670,10 +670,10 @@ body {
   height: 100%; */
   object-fit: cover;
 }
-.sectionFour-rectImg_desktop{
+.sectionFour-rectImg_desktop {
   display: block !important;
 }
-.sectionFour-rectImg_mobile{
+.sectionFour-rectImg_mobile {
   display: none !important;
 }
 .Shape_rectangle_four {
@@ -1140,6 +1140,13 @@ body {
   padding-top: 40px;
   z-index: 1;
 }
+.sectionSeven_macbook_desktop {
+  display: block!important;
+}
+.sectionSeven_macbook_mobile {
+  display: none !important;
+}
+
 .sectionSeven_wrapperImg {
   width: 1008px;
   height: 555px;
