@@ -296,6 +296,14 @@ body {
   gap: 24px;
   /* z-index: 2; */
 }
+.sectionOne_image_desktop{
+  display: block;
+}
+.sectionOne_image_mobile{
+  display: none;
+}
+
+
 .sectionOne-wrapperImg {
   /* max-width: 100%; */
   /* z-index: 10; */
@@ -755,12 +763,8 @@ body {
 .arrow-rightFive {
   width: 24px;
   height: 24px;
+  margin-left: 5px;
 }
-/* .rigthBtnFive:hover {
-  cursor: pointer;
-  background-color: #f7cf4e;
-  border: 2px solid #f7cf4e;
-} */
 .textBtnFive {
   font-weight: 700;
   font-style: Bold;
